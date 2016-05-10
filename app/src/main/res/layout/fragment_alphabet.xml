@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="a02.cguigue.heritage.cguigue_b51_a02_hangman.AlphabetFragment"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <GridView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/gvAlphabet"
+        android:choiceMode="singleChoice"
+        android:numColumns="auto_fit"
+        android:columnWidth="88dp"
+        android:layout_weight="1"
+        android:background="#63955d" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:visibility="gone"
+        android:id="@+id/tvMessage"
+        android:textSize="70sp"
+        android:background="#63955d" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:text="@string/strMainMenu"
+        android:id="@+id/btnClose"
+        android:visibility="gone"
+        android:textSize="60sp"
+        android:background="#a1dcff"
+        android:allowUndo="false" />
+</LinearLayout>

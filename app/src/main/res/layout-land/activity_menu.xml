@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingTop="10dp"
+    android:orientation="vertical"
+    tools:context=".MenuActivity"
+    android:background="@android:color/white">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/ivTitle"
+        android:layout_gravity="center_horizontal"
+        android:contentDescription="@string/strImgDesc"
+        android:src="@drawable/hangmantitle"
+        android:layout_weight=".9"
+        android:layout_marginBottom="10dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/strBtnPlay"
+        android:id="@+id/btnPlay"
+        android:layout_gravity="center_horizontal"
+        android:background="#5e5f81"
+        android:textColor="@android:color/white"
+        android:textSize="50sp"
+        android:layout_weight="1" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/strBtnOptions"
+        android:id="@+id/btnOptions"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@android:color/white"
+        android:background="#63955d"
+        android:textSize="50sp"
+        android:layout_weight="1" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="High Scores"
+        android:id="@+id/btnScores"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@android:color/white"
+        android:background="#d0b955"
+        android:textSize="50sp"
+        android:layout_weight="1"
+        android:nestedScrollingEnabled="false" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/strBtnAbout"
+        android:id="@+id/btnAbout"
+        android:layout_gravity="center_horizontal"
+        android:textSize="50sp"
+        android:textColor="@android:color/white"
+        android:background="#ccca75"
+        android:layout_weight="1" />
+
+</LinearLayout>

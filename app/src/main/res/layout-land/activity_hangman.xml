@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context="a02.cguigue.heritage.cguigue_b51_a02_hangman.HangmanActivity"
+    android:baselineAligned="false">
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:name="a02.cguigue.heritage.cguigue_b51_a02_hangman.HangmanFragment"
+        android:id="@+id/fragHangman"
+        android:layout_weight="1"
+        tools:layout="@layout/fragment_hangman" />
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:name="a02.cguigue.heritage.cguigue_b51_a02_hangman.AlphabetFragment"
+        android:id="@+id/fragAlphabet"
+        android:layout_weight="1"
+        tools:layout="@layout/fragment_alphabet" />
+</LinearLayout>

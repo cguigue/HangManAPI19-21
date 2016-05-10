@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">Hangman</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="strBtnPlay">New Game</string>
+    <string name="strBtnOptions">Options</string>
+    <string name="strBtnAbout">About</string>
+    <string name="strImgDesc">Title Hangman</string>
+    <string name="title_activity_about">AboutActivity</string>
+    <string name="game">Game :</string>
+    <string name="version">Version :</string>
+    <string name="strAboutTitle">About</string>
+    <string name="strVersion">v1.1</string>
+    <string name="strAuthorTitle">Author :</string>
+    <string name="strAuthor">Christopher Guigue</string>
+    <string name="strCompleteTitle">Completed :</string>
+    <string name="strCompleted">September 28th, 2015</string>
+    <string name="strCourseTitle">Course :</string>
+    <string name="strCourse">Programming V</string>
+    <string name="strCourNumTitle">Course # :</string>
+    <string name="strCourseNum">B51</string>
+    <string name="strGameDescription">The game of Hangman. Guess letters to reveal the word. Clear the word to win the game. Have Fun!</string>
+    <string name="title_activity_options">OptionsActivity</string>
+    <string name="title_activity_hangman">HangmanActivity</string>
+
+    <string-array name="numbers">
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+    </string-array>
+
+    <string-array name="difficulties">
+        <item>easy</item>
+        <item>hard</item>
+    </string-array>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="strHangImgDesc">Hangman Image</string>
+    <string name="strMainMenu">Main Menu</string>
+    <string name="strDifficulty">Difficulty :</string>
+    <string name="strSave">Save Options</string>
+    <string name="strMaxLength">Max Length :</string>
+    <string name="strMinLength">Min Length :</string>
+    <string name="strBtnCommit">Add New User</string>
+    <string name="strUsername">Username :</string>
+    <string name="strOptions">Options</string>
+    <string name="strGoodLuck">Good Luck!</string>
+    <string name="title_activity_high_score">HighScoreActivity</string>
+    <string name="strHighScores">High Scores</string>
+</resources>
